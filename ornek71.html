@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ornek 71</title>
+</head>
+<body>
+    <h2>mesaj görüntüleme</h2>
+    <p>1-100 arasındaki 4'e veya 7'ye bölünebilen</p>
+    <p id="karsilama"></p>
+    <script>
+        var sayi=1;
+        var mesaj="sayilar"="";
+        while(sayi<=100){
+            if(sayi%4==0 || sayi%7==0){
+                mesaj+=sayi + ", ";
+            }
+            sayi++;
+        }
+        document.getElementById("karsilama").innerHTML=mesaj;
+    </script>
+
+</body>
+</html>
