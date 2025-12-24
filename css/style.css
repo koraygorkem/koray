@@ -313,3 +313,48 @@ footer {
         margin-bottom: 30px;
     }
 }
+
+/* Anasayfa Özel Stilleri (Inline CSS Temizliği) */
+.hero {
+    position: relative;
+    z-index: 0;
+}
+
+.hero-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.home-container {
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.section-title {
+    color: #D4AF37;
+    text-align: center;
+    border-bottom: 1px solid #D4AF37;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+
+.footer-email {
+    margin-top: 10px;
+}
+
+.footer-email a {
+    color: #fff !important;
+}
+
+.copyright {
+    margin-top: 20px;
+    color: #555;
+    font-size: 0.8em;
+}
