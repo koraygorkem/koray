@@ -1,20 +1,20 @@
 body {
     margin: 0;
-    font-family: 'Georgia', serif; /* Serif font for luxury look */
-    background-color: #1a1a1a; /* Dark background */
-    color: #f0f0f0; /* Light text */
+    font-family: 'Georgia', serif; 
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
 }
 
-/* Header ve Menu */
+
 header {
-    background-color: #000; /* Black header */
+    background-color: #000; 
     padding: 20px;
     text-align: center;
-    border-bottom: 2px solid #D4AF37; /* Gold border */
+    border-bottom: 2px solid #D4AF37; 
 }
 
 .logo a {
-    color: #D4AF37; /* Gold logo */
+    color: #D4AF37; 
     font-size: 28px;
     font-weight: bold;
     text-decoration: none;
@@ -51,15 +51,15 @@ nav a {
 }
 
 nav a:hover, nav a.active {
-    color: #D4AF37; /* Gold hover */
-    background-color: transparent; /* Remove background, just change text color */
+    color: #D4AF37; 
+    background-color: transparent; 
 }
 
-/* Dropdown Menu */
+
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #222; /* Dark dropdown */
+    background-color: #222; 
     min-width: 160px;
     box-shadow: 0 8px 16px rgba(0,0,0,0.5);
     z-index: 1;
@@ -85,11 +85,11 @@ nav a:hover, nav a.active {
     display: block;
 }
 
-/* Genel Düzen */
+
 .container {
     width: 80%;
     margin: auto;
-    background-color: #252525; /* Slightly lighter dark background */
+    background-color: #252525; 
     padding: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -97,7 +97,7 @@ nav a:hover, nav a.active {
     border: 1px solid #333;
 }
 
-/* Hero Bölümü */
+
 .hero {
     background-color: #000;
     color: #D4AF37;
@@ -120,9 +120,9 @@ nav a:hover, nav a.active {
     font-style: italic;
 }
 
-/* Resimler ve Kartlar */
+
 .recent-trips {
-    overflow: hidden; /* Clearfix yerine */
+    overflow: hidden; 
 }
 
 .trip-card {
@@ -182,7 +182,7 @@ nav a:hover, nav a.active {
     color: #000;
 }
 
-/* Galeri */
+
 .gallery-grid {
     overflow: hidden;
 }
@@ -219,7 +219,7 @@ nav a:hover, nav a.active {
     display: block;
 }
 
-/* Form */
+
 .form-group {
     margin-bottom: 20px;
 }
@@ -244,7 +244,7 @@ nav a:hover, nav a.active {
     outline: none;
 }
 
-/* Footer */
+
 footer {
     background-color: #000;
     color: #888;
@@ -283,7 +283,7 @@ footer {
     text-decoration: none;
 }
 
-/* Mobil Uyumluluk */
+
 @media screen and (max-width: 768px) {
     .trip-card, .gallery-item {
         width: 100%;
@@ -314,7 +314,7 @@ footer {
     }
 }
 
-/* Anasayfa Özel Stilleri (Inline CSS Temizliği) */
+
 .hero {
     position: relative;
     z-index: 0;
